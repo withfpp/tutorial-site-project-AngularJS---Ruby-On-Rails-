@@ -1,0 +1,21 @@
+<%= form_for :article , url: articles_path do |f| %>
+	<p>
+		<%= f.label :title %> <br>
+		<%= f.text_field :title %> 		
+	</p>
+	<p>
+		<%= f.label :text %> <br>
+		<%= f.text_field :text %> 		
+	</p>
+	<p>
+		<%= f.label :img_url %> <br>
+		<%= f.text_field :img_url %> 		
+	</p>
+	<p>
+		<%= f.label :video_url %> <br>
+		<%= f.text_field :video_url %> 		
+	</p>
+	<p>
+		<%= f.submit %> 	
+	</p>
+<% end %>
