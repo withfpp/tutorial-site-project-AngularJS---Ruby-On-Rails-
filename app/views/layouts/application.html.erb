@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myTutsApp">
 <head>
   <title>AngRails</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <%= csrf_meta_tags %>
+
 </head>
 <body>
+	<header>
+		Leon's Tutorial
+	</header>
+	
 
 <%= yield %>
 
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-resource.min.js"></script>
+
+ <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-resource.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <%= javascript_include_tag 'application' %>
+	
 </body>
 </html>

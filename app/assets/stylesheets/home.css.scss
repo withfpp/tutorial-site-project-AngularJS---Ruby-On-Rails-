@@ -1,0 +1,44 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.tuts-list-container{
+	background-color: #263F50;
+	position:absolute;
+	min-height:700px;
+	width:300px;
+	top:35px;
+	left:0;
+	bottom:0;
+	overflow:auto;
+	-webkit-overflow-scrolling: touch;
+	ul {
+		margin: 0px;
+		list-style:none;
+		padding: 0px;
+		li{
+			cursor : pointer;
+			border: none;
+			padding: 10px;
+		}
+	}
+	h3{
+		font-size:15px;
+		small {
+			font-size:12px;
+			color: white;
+		}
+		&.active {
+			color:#1AC8B0;
+		}
+	}
+}
+
+.tuts-view-container {
+	position: absolute;
+	top:35px;
+	left:300px;
+	min-height: 700px;
+	padding:5px 25px;
+	
+}

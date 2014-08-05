@@ -1,1 +1,3 @@
-window.App = angular.module('TutsLeon',['ngResource']);
+var myApp = angular.module('myTutsApp', []);
+
+//window.App = angular.module('tutsLeon', ['ngResource']);

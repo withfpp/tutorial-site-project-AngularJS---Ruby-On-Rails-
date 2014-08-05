@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  root to: 'home#index'
+
   # scope :api do
   #   get "/tutorials(.:format)" => "articles#index"
   #   get "/tutorials/:id(.:format)" => "articles#show"
