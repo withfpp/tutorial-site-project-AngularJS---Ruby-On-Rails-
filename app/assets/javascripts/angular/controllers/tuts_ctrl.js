@@ -1,3 +1,3 @@
-myApp.controller('TutsCtrl', function($scope){
-	$scope.message = "basicSetting is done.";
-});
+myApp.controller('TutsCtrl', ['$scope','myFactory',function($scope,myFactory){
+	$scope.tuts = myFactory.query();
+}]);

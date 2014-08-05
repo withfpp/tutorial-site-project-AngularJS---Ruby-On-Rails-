@@ -1,3 +1,10 @@
 <div ng-controller="TutsCtrl">
-	<h2>{{message}}</h2>
+	<div class="tuts-list-container">
+		<ul>
+			<li ng-repeat="tut in tuts">
+				<h3>{{tut.title}}</h3>
+				<small>{{tut.text}}</small>
+			</li>
+		</ul>
+	</div>
 </div>
