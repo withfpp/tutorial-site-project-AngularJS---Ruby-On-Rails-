@@ -1,13 +1,15 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
+.navbar {
+	margin-bottom: 0px ;
+}
 .tuts-list-container{
-	background-color:#92A3A8 ;
+	background-color:#92A3A8;
+	top:51px;
 	position:absolute;
 	min-height:700px;
 	width:300px;
-	top:35px;
 	left:0;
 	bottom:0;
 	overflow:auto;
@@ -38,7 +40,6 @@
 
 .tuts-view-container {
 	position: absolute;
-	top:35px;
 	left:300px;
 	min-height: 700px;
 	padding:5px 25px;
